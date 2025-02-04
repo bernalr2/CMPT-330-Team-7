@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,10 +105,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sideburns_sprite_0: -1669887125748849419
+      sideburns_sprite_1: -7193305305232960616
+      sideburns_sprite_10: 1519787677323654198
+      sideburns_sprite_11: -1201679122282986607
+      sideburns_sprite_2: 1696879669628851609
+      sideburns_sprite_3: 2909443425231975311
+      sideburns_sprite_4: 3270747810847318561
+      sideburns_sprite_5: 8779648717927853321
+      sideburns_sprite_6: 7110602860936893788
+      sideburns_sprite_7: 7541144531102512613
+      sideburns_sprite_8: 1765672326408932431
+      sideburns_sprite_9: -1610486414348083873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

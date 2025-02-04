@@ -1,43 +1,46 @@
 fileFormatVersion: 2
-guid: 901badc720cf5ce44bf51f60679b5efd
+guid: 5910f17b11eec0c4698d10eeb5beac81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5093560823705446288
-    second: Judge_Sprite_0
+      213: 8007786447518057853
+    second: Phoebe_Sprite_0
   - first:
-      213: 2125884946097853485
-    second: Judge_Sprite_1
+      213: -390064348239319387
+    second: Phoebe_Sprite_1
   - first:
-      213: -8315544015679889747
-    second: Judge_Sprite_2
+      213: -7497985301107074867
+    second: Phoebe_Sprite_2
   - first:
-      213: -1203715477796345857
-    second: Judge_Sprite_3
+      213: -1756613050309462701
+    second: Phoebe_Sprite_3
   - first:
-      213: 2047749850471733738
-    second: Judge_Sprite_4
+      213: -3399909902503421405
+    second: Phoebe_Sprite_4
   - first:
-      213: 6008342151154665350
-    second: Judge_Sprite_5
+      213: -2711003155174385934
+    second: Phoebe_Sprite_5
   - first:
-      213: -186960484074152728
-    second: Judge_Sprite_6
+      213: 8291654958635655897
+    second: Phoebe_Sprite_6
   - first:
-      213: 5262872660432271285
-    second: Judge_Sprite_7
+      213: 5739590257961969594
+    second: Phoebe_Sprite_7
   - first:
-      213: -3654750623425377098
-    second: Judge_Sprite_8
+      213: 375193183516800030
+    second: Phoebe_Sprite_8
   - first:
-      213: 8624752464719486719
-    second: Judge_Sprite_9
+      213: -8026705771687021890
+    second: Phoebe_Sprite_9
   - first:
-      213: 7339455075990290461
-    second: Judge_Sprite_10
+      213: -911576451891300384
+    second: Phoebe_Sprite_10
   - first:
-      213: 5519880043237729592
-    second: Judge_Sprite_11
+      213: 959851320908111174
+    second: Phoebe_Sprite_11
+  - first:
+      213: -1403117796139064927
+    second: Phoebe_Sprite_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -159,13 +162,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Judge_Sprite_0
+      name: Phoebe_Sprite_0
       rect:
         serializedVersion: 2
-        x: 361
-        y: 1473
-        width: 379
-        height: 470
+        x: 319
+        y: 1508
+        width: 428
+        height: 428
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0972fc21596ffa640800000000000000
-      internalID: 5093560823705446288
+      spriteID: d754081d85f512f60800000000000000
+      internalID: 8007786447518057853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Judge_Sprite_1
+      name: Phoebe_Sprite_1
       rect:
         serializedVersion: 2
-        x: 874
-        y: 1488
-        width: 349
-        height: 470
+        x: 788
+        y: 1508
+        width: 471
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2453855819a08d10800000000000000
-      internalID: 2125884946097853485
+      spriteID: 5aea6abba86369af0800000000000000
+      internalID: -390064348239319387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Judge_Sprite_2
+      name: Phoebe_Sprite_2
       rect:
         serializedVersion: 2
-        x: 1357
-        y: 1473
-        width: 379
-        height: 470
+        x: 1299
+        y: 1508
+        width: 428
+        height: 428
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae564f76c0499c80800000000000000
-      internalID: -8315544015679889747
+      spriteID: dc8996c381ec1f790800000000000000
+      internalID: -7497985301107074867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Judge_Sprite_3
+      name: Phoebe_Sprite_3
       rect:
         serializedVersion: 2
-        x: 422
-        y: 1006
-        width: 318
-        height: 454
+        x: 334
+        y: 997
+        width: 385
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff72f47862b8b4fe0800000000000000
-      internalID: -1203715477796345857
+      spriteID: 3553d78dcb14f97e0800000000000000
+      internalID: -1756613050309462701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Judge_Sprite_4
+      name: Phoebe_Sprite_4
       rect:
         serializedVersion: 2
-        x: 904
-        y: 1006
-        width: 334
-        height: 469
+        x: 831
+        y: 997
+        width: 385
+        height: 456
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,152 +265,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae91a3ab3a11b6c10800000000000000
-      internalID: 2047749850471733738
+      spriteID: 32a53f805f711d0d0800000000000000
+      internalID: -3399909902503421405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Judge_Sprite_5
-      rect:
-        serializedVersion: 2
-        x: 1387
-        y: 1006
-        width: 364
-        height: 454
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68784985a5be16350800000000000000
-      internalID: 6008342151154665350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Judge_Sprite_6
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 523
-        width: 364
-        height: 454
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ec99b72e68c76df0800000000000000
-      internalID: -186960484074152728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Judge_Sprite_7
-      rect:
-        serializedVersion: 2
-        x: 874
-        y: 523
-        width: 334
-        height: 470
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b73e2ffcca790940800000000000000
-      internalID: 5262872660432271285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Judge_Sprite_8
-      rect:
-        serializedVersion: 2
-        x: 1372
-        y: 523
-        width: 319
-        height: 454
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bcc714fba7b74dc0800000000000000
-      internalID: -3654750623425377098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Judge_Sprite_9
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 40
-        width: 349
-        height: 455
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ffe9747bba641b770800000000000000
-      internalID: 8624752464719486719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Judge_Sprite_10
-      rect:
-        serializedVersion: 2
-        x: 874
-        y: 40
-        width: 349
-        height: 470
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d10c659618bfad560800000000000000
-      internalID: 7339455075990290461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Judge_Sprite_11
+      name: Phoebe_Sprite_5
       rect:
         serializedVersion: 2
         x: 1342
-        y: 40
-        width: 349
-        height: 455
+        y: 997
+        width: 385
+        height: 442
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +287,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 835e3fb57ad8a9c40800000000000000
-      internalID: 5519880043237729592
+      spriteID: 2f61ede6ef4906ad0800000000000000
+      internalID: -2711003155174385934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 954
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2a599f040e11370800000000000000
+      internalID: 8291654958635655897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 486
+        width: 385
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7ad121eee17af40800000000000000
+      internalID: 5739590257961969594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 486
+        width: 386
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14baa96634f43500800000000000000
+      internalID: 375193183516800030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 486
+        width: 386
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb27402c0a96b9090800000000000000
+      internalID: -8026705771687021890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 31
+        width: 399
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e77867fb0e6953f0800000000000000
+      internalID: -911576451891300384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 31
+        width: 385
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ddaebd0b3125d00800000000000000
+      internalID: 959851320908111174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Phoebe_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 31
+        width: 400
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a12a176ccf178ce0800000000000000
+      internalID: -1403117796139064927
       vertices: []
       indices: 
       edges: []
@@ -436,18 +461,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Judge_Sprite_0: 5093560823705446288
-      Judge_Sprite_1: 2125884946097853485
-      Judge_Sprite_10: 7339455075990290461
-      Judge_Sprite_11: 5519880043237729592
-      Judge_Sprite_2: -8315544015679889747
-      Judge_Sprite_3: -1203715477796345857
-      Judge_Sprite_4: 2047749850471733738
-      Judge_Sprite_5: 6008342151154665350
-      Judge_Sprite_6: -186960484074152728
-      Judge_Sprite_7: 5262872660432271285
-      Judge_Sprite_8: -3654750623425377098
-      Judge_Sprite_9: 8624752464719486719
+      Phoebe_Sprite_0: 8007786447518057853
+      Phoebe_Sprite_1: -390064348239319387
+      Phoebe_Sprite_10: -911576451891300384
+      Phoebe_Sprite_11: 959851320908111174
+      Phoebe_Sprite_12: -1403117796139064927
+      Phoebe_Sprite_2: -7497985301107074867
+      Phoebe_Sprite_3: -1756613050309462701
+      Phoebe_Sprite_4: -3399909902503421405
+      Phoebe_Sprite_5: -2711003155174385934
+      Phoebe_Sprite_6: 8291654958635655897
+      Phoebe_Sprite_7: 5739590257961969594
+      Phoebe_Sprite_8: 375193183516800030
+      Phoebe_Sprite_9: -8026705771687021890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
