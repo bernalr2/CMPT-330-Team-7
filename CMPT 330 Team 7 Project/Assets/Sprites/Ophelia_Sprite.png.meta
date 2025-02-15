@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 193fb95ebced66f4591aa0ae89ac4c9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 412877504800057919
+    second: Ophelia_Sprite_0
+  - first:
+      213: -1124153498208858011
+    second: Ophelia_Sprite_1
+  - first:
+      213: 4585724751461352218
+    second: Ophelia_Sprite_2
+  - first:
+      213: -588416422242047120
+    second: Ophelia_Sprite_3
+  - first:
+      213: 1476144394259270085
+    second: Ophelia_Sprite_4
+  - first:
+      213: 6762355937424615463
+    second: Ophelia_Sprite_5
+  - first:
+      213: -4440200676326717674
+    second: Ophelia_Sprite_6
+  - first:
+      213: 3489169247970682653
+    second: Ophelia_Sprite_7
+  - first:
+      213: -5909911455849418871
+    second: Ophelia_Sprite_8
+  - first:
+      213: 9153602290527496189
+    second: Ophelia_Sprite_9
+  - first:
+      213: -6836388123782979917
+    second: Ophelia_Sprite_10
+  - first:
+      213: -6814863253223428750
+    second: Ophelia_Sprite_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ophelia_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1490
+        width: 385
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a6b5137e5dab500800000000000000
+      internalID: 412877504800057919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1490
+        width: 372
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5609f3279543660f0800000000000000
+      internalID: -1124153498208858011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1490
+        width: 385
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1302908d54c3af30800000000000000
+      internalID: 4585724751461352218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1024
+        width: 358
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ba14ca16685d7f0800000000000000
+      internalID: -588416422242047120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1024
+        width: 358
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9020171815c7410800000000000000
+      internalID: 1476144394259270085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1024
+        width: 358
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728a2f685e6b8dd50800000000000000
+      internalID: 6762355937424615463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 558
+        width: 358
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617c814920d3162c0800000000000000
+      internalID: -4440200676326717674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 558
+        width: 358
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d176282d1f40c6030800000000000000
+      internalID: 3489169247970682653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 558
+        width: 358
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f651cc7d6cbfda0800000000000000
+      internalID: -5909911455849418871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 78
+        width: 386
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7e71e09c0280f70800000000000000
+      internalID: 9153602290527496189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 78
+        width: 372
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be573fd8354021a0800000000000000
+      internalID: -6836388123782979917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ophelia_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 78
+        width: 385
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d21c65afdbc61a0800000000000000
+      internalID: -6814863253223428750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ophelia_Sprite_0: 412877504800057919
+      Ophelia_Sprite_1: -1124153498208858011
+      Ophelia_Sprite_10: -6836388123782979917
+      Ophelia_Sprite_11: -6814863253223428750
+      Ophelia_Sprite_2: 4585724751461352218
+      Ophelia_Sprite_3: -588416422242047120
+      Ophelia_Sprite_4: 1476144394259270085
+      Ophelia_Sprite_5: 6762355937424615463
+      Ophelia_Sprite_6: -4440200676326717674
+      Ophelia_Sprite_7: 3489169247970682653
+      Ophelia_Sprite_8: -5909911455849418871
+      Ophelia_Sprite_9: 9153602290527496189
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
