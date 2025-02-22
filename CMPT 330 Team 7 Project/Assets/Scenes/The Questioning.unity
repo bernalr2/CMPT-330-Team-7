@@ -432,6 +432,9 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4798579158122628976, guid: c265712408017ca46af947adaa541b59, type: 3}
   playerBattleStation: {fileID: 785176782}
   enemyBattleStation: {fileID: 1873015397}
+  dialogueText: {fileID: 156543646}
+  playerUI: {fileID: 1367359401}
+  enemyUI: {fileID: 936511718}
   state: 0
 --- !u!1 &785176780
 GameObject:
@@ -749,6 +752,7 @@ GameObject:
   - component: {fileID: 936511715}
   - component: {fileID: 936511717}
   - component: {fileID: 936511716}
+  - component: {fileID: 936511718}
   m_Layer: 5
   m_Name: EnemyUI
   m_TagString: Untagged
@@ -816,6 +820,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936511714}
   m_CullTransparentMesh: 1
+--- !u!114 &936511718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936511714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb1a24a987368647981739cf9f46394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 841900577}
+  stressText: {fileID: 2030772313}
+  stressSlider: {fileID: 1428330327}
 --- !u!1 &937455099
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,7 +846,7 @@ GameObject:
   - component: {fileID: 937455100}
   - component: {fileID: 937455101}
   m_Layer: 5
-  m_Name: Slider (1)
+  m_Name: PlayerSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1138,7 +1157,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1127934676}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 516265071}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: OnTacticButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1127934676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1338,6 +1369,7 @@ GameObject:
   - component: {fileID: 1367359398}
   - component: {fileID: 1367359400}
   - component: {fileID: 1367359399}
+  - component: {fileID: 1367359401}
   m_Layer: 5
   m_Name: PlayerUI
   m_TagString: Untagged
@@ -1405,6 +1437,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367359397}
   m_CullTransparentMesh: 1
+--- !u!114 &1367359401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367359397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb1a24a987368647981739cf9f46394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1473040004}
+  stressText: {fileID: 1432030135}
+  stressSlider: {fileID: 937455101}
 --- !u!1 &1380566156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1574,7 +1621,7 @@ GameObject:
   - component: {fileID: 1428330326}
   - component: {fileID: 1428330327}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: EnemySlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2150,7 +2197,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1648992419}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 516265071}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: OnItemButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1648992419
 MonoBehaviour:
   m_ObjectHideFlags: 0
