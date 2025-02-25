@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 443b643c65aed6541886393625015306
+  - enabled: 1
+    path: Assets/Scenes/The Investigation.unity
+    guid: 957004512bcaab34c9d87c2d7e7e5fbb
+  - enabled: 1
+    path: Assets/Scenes/The Questioning.unity
+    guid: 8602485cb40b85a41b1ec3f1fca5819d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
