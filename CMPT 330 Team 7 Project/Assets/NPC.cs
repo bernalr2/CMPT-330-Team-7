@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Runtime.CompilerServices;
 using TMPro;
@@ -21,6 +22,7 @@ public class NPC : MonoBehaviour, IInteractable
 
     void IInteractable.Interact()
     {
+        Debug.Log("Hello");
         if (DialogueData == null /*|| (PauseController.IsGamePaused && !IsDialogueActive)*/)
         {
             return;

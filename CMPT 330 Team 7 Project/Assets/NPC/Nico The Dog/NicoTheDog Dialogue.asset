@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NicoTheDog Dialogue
   m_EditorClassIdentifier: 
   NPCName: Nico
-  NPCPortrait: {fileID: 0}
+  NPCPortrait: {fileID: -5460464674711876189, guid: d2891eef43597ee4d8b1801f1ebff61e, type: 3}
   DialogueLines:
   - Woof Woof Woof! (I know who did it!)
   AutoProgressLines: 01
