@@ -15,9 +15,9 @@ MonoBehaviour:
   NPCName: Nico
   NPCPortrait: {fileID: -5460464674711876189, guid: d2891eef43597ee4d8b1801f1ebff61e, type: 3}
   DialogueLines:
-  - Woof Woof Woof! (I know who did it!)
+  - Woof Woof Woof! (I know who did it!) Woof Woof Woof (Please listen!)
   AutoProgressLines: 01
   AutoProgressDelay: 1.5
   TypingSpeed: 0.05
-  VoiceSound: {fileID: 0}
+  VoiceSound: {fileID: 8300000, guid: b3df7463d2ffae943b1ed59157ff0747, type: 3}
   VoicePitch: 1
