@@ -42,7 +42,7 @@ public class NPC : MonoBehaviour, IInteractable
         IsDialogueActive = true;
         DialogueIndex = 0;
 
-        NameText.SetText(DialogueData.name);
+        NameText.SetText(DialogueData.NPCName);
         PortraitImage.sprite = DialogueData.NPCPortrait;
 
         DialoguePanel.SetActive(true);
@@ -79,7 +79,7 @@ public class NPC : MonoBehaviour, IInteractable
         foreach(char letter in DialogueData.DialogueLines[DialogueIndex])
         {
             DialogueText.text += letter;
-            SoundEffectManager.PlayVoice(DialogueData.VoiceSound, DialogueData.VoicePitch);
+            //SoundEffectManager.PlayVoice(DialogueData.VoiceSound, DialogueData.VoicePitch);
             yield return new WaitForSeconds(DialogueData.TypingSpeed);
         }
 
