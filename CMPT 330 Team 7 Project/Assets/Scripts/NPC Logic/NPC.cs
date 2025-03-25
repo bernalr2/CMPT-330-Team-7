@@ -11,9 +11,15 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject DialoguePanel;
     public TMP_Text DialogueText, NameText;
     public Image PortraitImage;
+    public GameObject ExclamationIcon;
 
     private int DialogueIndex;
     private bool IsTyping, IsDialogueActive;
+
+    void Start()
+    {
+        ExclamationIcon.SetActive(false);
+    }
 
     bool IInteractable.CanInteract()
     {
@@ -99,5 +105,17 @@ public class NPC : MonoBehaviour, IInteractable
         DialogueText.SetText("");
         DialoguePanel.SetActive(false);
         //PauseController.SetPause(false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Interactable Object Area Detected");
+
+        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        {
+            //InteractableInRange = interactable;
+            //InteractableInRange = interactable;
+            ExclamationIcon.SetActive(true);
+        }
     }
 }

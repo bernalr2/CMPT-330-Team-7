@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        _rb.freezeRotation = true; // Prevent Character from rotating
+
         _movement.Set(InputManager.Movement.x, InputManager.Movement.y);
 
         _rb.linearVelocity = _movement * _moveSpeed;
