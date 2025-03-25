@@ -4,12 +4,16 @@ using UnityEngine.InputSystem;
 public class InteractionDetector : MonoBehaviour
 {
     private IInteractable InteractableInRange = null; // Closest Interactable
-    public GameObject InteractionIcon;
+    public GameObject ExclamationIcon;
+    public GameObject QuestionIcon;
+    public GameObject EIcon;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InteractionIcon.SetActive(false);
+        ExclamationIcon.SetActive(false);
+        QuestionIcon.SetActive(false);
+        EIcon.SetActive(false);
         
     }
 
@@ -28,7 +32,7 @@ public class InteractionDetector : MonoBehaviour
         if(collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {
             InteractableInRange = interactable;
-            InteractionIcon.SetActive(true);
+            ExclamationIcon.SetActive(true);
         }
     }
 
@@ -38,7 +42,7 @@ public class InteractionDetector : MonoBehaviour
         if (collision.TryGetComponent(out IInteractable interactable) && interactable == InteractableInRange)
         {
             InteractableInRange = null;
-            InteractionIcon.SetActive(false);
+            ExclamationIcon.SetActive(false);
         }
     }
 }
