@@ -23,10 +23,13 @@ public class BattleSystem : MonoBehaviour
     public BattleUI playerUI;
     public BattleUI enemyUI;
 
+    public GameObject dialogueUI;
+
     public BattleState state;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        dialogueUI.SetActive(false);
         state = BattleState.START;
         StartCoroutine(SetupBattle());
     }
@@ -52,6 +55,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack()
     {
+        dialogueUI.SetActive(false);
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
         enemyUI.SetStress(enemyUnit.currentStress);
@@ -75,6 +79,9 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator EnemyTurn()
     {
+        // Hide UI before enemy starts attacking
+        dialogueUI.SetActive(false);
+        
         dialogueText.text = enemyUnit.unitName + " is attacking!";
 
         yield return new WaitForSeconds(2f);
@@ -99,6 +106,7 @@ public class BattleSystem : MonoBehaviour
 
     void EndBattle()
     {
+        dialogueUI.SetActive(false);
         if (state == BattleState.WON)
         {
             dialogueText.text = "You won the battle!";
@@ -108,15 +116,19 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "You lost the battle...";
         }
+
+        SceneManager.LoadScene("Main Menu");
     }
 
     void PlayerTurn()
     {
         dialogueText.text = "Choose an action: ";
+        dialogueUI.SetActive(true);
     }
 
     IEnumerator PlayerHeal()
     {
+        dialogueUI.SetActive(false);
         playerUnit.Heal(5);
 
         playerUI.SetStress(playerUnit.currentStress);
