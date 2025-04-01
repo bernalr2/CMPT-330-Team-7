@@ -15,4 +15,4 @@ MonoBehaviour:
   FragmentName: Gun
   Description: An Arsenal Firearms AF1 "Strike One" Firearm. The perpetrator used
     this to initiate the crime.
-  isFound: 1
+  isFound: 0

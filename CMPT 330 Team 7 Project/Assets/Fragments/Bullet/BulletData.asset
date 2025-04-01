@@ -15,4 +15,4 @@ MonoBehaviour:
   FragmentName: Bullet
   Description: A fired bullet covered in The Victims Blood. How cruel this world
     can be...
-  isFound: 1
+  isFound: 0

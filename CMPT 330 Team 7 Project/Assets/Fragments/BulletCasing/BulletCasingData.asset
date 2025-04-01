@@ -15,4 +15,4 @@ MonoBehaviour:
   FragmentName: Bullet Casing
   Description: The shell from a bullet that was fired. Looking at it, that is a nasty
     size.
-  isFound: 1
+  isFound: 0

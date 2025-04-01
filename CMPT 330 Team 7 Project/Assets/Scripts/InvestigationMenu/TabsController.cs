@@ -8,6 +8,7 @@ public class TabsController : MonoBehaviour
     public GameObject[] pages;
     public Color originalColor;
     public Color savedColor;
+    public AudioSource PaperFold;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +18,7 @@ public class TabsController : MonoBehaviour
 
     public void ActivateTab(int tabNo)
     {
+        PaperFold.Play();
         for(int i = 0; i < pages.Length; i++)
         {
             switch(i)

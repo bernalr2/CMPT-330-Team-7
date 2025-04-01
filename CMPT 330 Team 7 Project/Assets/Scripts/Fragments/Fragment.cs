@@ -21,10 +21,12 @@ public class Fragment : MonoBehaviour
 
         if (!found)
         {
+            nameText.text = "Unknown";
             descriptionText.text = "This fragment has not been found yet...";
         }
         else
         {
+            nameText.text = fragmentData.FragmentName;
             descriptionText.text = fragmentData.Description;
         }
     }

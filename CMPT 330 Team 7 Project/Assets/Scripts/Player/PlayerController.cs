@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     private const string _lastHorizontal = "LastHorizontal";
     private const string _lastVertical = "LastVertical";
 
+    public AudioSource Footsteps;
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -40,6 +42,18 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetFloat(_lastHorizontal, _movement.x);
             _animator.SetFloat(_lastVertical, _movement.y);
+        }
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            if(!Footsteps.isPlaying)
+            {
+                Footsteps.Play();
+            }
+        }
+        else
+        {
+            Footsteps.Stop();
         }
     }
 }
