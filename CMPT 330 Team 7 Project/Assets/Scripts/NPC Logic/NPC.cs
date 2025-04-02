@@ -11,14 +11,13 @@ public class NPC : MonoBehaviour, IInteractable
     public GameObject DialoguePanel;
     public TMP_Text DialogueText, NameText;
     public Image PortraitImage;
-    public GameObject ExclamationIcon;
 
     private int DialogueIndex;
     private bool IsTyping, IsDialogueActive;
 
     void Start()
     {
-        ExclamationIcon.SetActive(false);
+      
     }
 
     bool IInteractable.CanInteract()
@@ -115,7 +114,6 @@ public class NPC : MonoBehaviour, IInteractable
         {
             //InteractableInRange = interactable;
             //InteractableInRange = interactable;
-            ExclamationIcon.SetActive(true);
         }
     }
 }

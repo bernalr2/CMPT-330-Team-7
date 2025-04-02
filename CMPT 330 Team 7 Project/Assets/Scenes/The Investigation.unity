@@ -1303,7 +1303,6 @@ GameObject:
   m_Component:
   - component: {fileID: 462939596}
   - component: {fileID: 462939595}
-  - component: {fileID: 462939594}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1311,23 +1310,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &462939594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462939593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a279b3c576db4340b42c36566fea8ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 133458592}
-  slotPrefab: {fileID: 7916314105075977904, guid: cc16fc62e727f8443bf0926b9f34d10c, type: 3}
-  slotCount: 14
-  itemPrefabs:
-  - {fileID: 171143147624497865, guid: 85f8bbc1d0974a040aaa8ff9c44fc273, type: 3}
 --- !u!114 &462939595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2117,7 +2099,6 @@ MonoBehaviour:
   DialogueText: {fileID: 593547456}
   NameText: {fileID: 1364182379}
   PortraitImage: {fileID: 1315838217}
-  ExclamationIcon: {fileID: 0}
 --- !u!1 &717038762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +2116,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &717038763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2909,7 +2890,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &917837650
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5667,7 +5648,6 @@ MonoBehaviour:
   DialogueText: {fileID: 593547456}
   NameText: {fileID: 1364182379}
   PortraitImage: {fileID: 1315838217}
-  ExclamationIcon: {fileID: 0}
 --- !u!61 &1655424475
 BoxCollider2D:
   m_ObjectHideFlags: 0
