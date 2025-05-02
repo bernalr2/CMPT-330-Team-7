@@ -7,12 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void OnInvestigateButton()
     {
-        SceneManager.LoadScene("The Investigation", LoadSceneMode.Additive);
+        SceneManager.LoadScene("The Investigation", LoadSceneMode.Single);
     }
 
     public void OnQuestionButton()
     {
-        SceneManager.LoadScene("The Questioning", LoadSceneMode.Additive);
+        SceneManager.LoadScene("The Questioning", LoadSceneMode.Single);
     }
 
     public void OnExitButton()

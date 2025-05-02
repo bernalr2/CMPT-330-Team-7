@@ -7,6 +7,6 @@ public class ExitButton : MonoBehaviour
     public void OnClick()
     {
         KeyboardClick.Play();
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Main Menu", LoadSceneMode.Single);
     }
 }

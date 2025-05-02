@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 898ce6872e940624888ddbf60034f107, type: 3}
   m_Name: The Prosecutor Dialogue
   m_EditorClassIdentifier: 
-  NPCName: Insert Name Here
+  NPCName: Prosecutor
   NPCPortrait: {fileID: -5574074189704207535, guid: f86fbeb5958dfbc4da08e3f641b4cfa3, type: 3}
   DialogueLines:
   - My husband over there is quite the work.

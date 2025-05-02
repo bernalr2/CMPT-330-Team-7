@@ -162,6 +162,6 @@ public class BattleSystem : MonoBehaviour
 
     public void OnExitButton()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Main Menu", LoadSceneMode.Single);
     }
 }
