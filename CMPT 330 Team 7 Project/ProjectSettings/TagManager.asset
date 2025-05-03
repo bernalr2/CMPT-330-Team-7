@@ -9,11 +9,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Buildings
   - Water
   - UI
   - Interactable
-  - 
+  - Building
   - 
   - 
   - 
@@ -47,6 +47,9 @@ TagManager:
     locked: 0
   - name: Decor
     uniqueID: 811055313
+    locked: 0
+  - name: Building
+    uniqueID: 1703762823
     locked: 0
   m_RenderingLayers:
   - Default

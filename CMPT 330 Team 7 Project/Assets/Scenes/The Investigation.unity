@@ -399,7 +399,8 @@ GameObject:
   - component: {fileID: 83173062}
   - component: {fileID: 83173061}
   - component: {fileID: 83173063}
-  m_Layer: 0
+  - component: {fileID: 83173064}
+  m_Layer: 7
   m_Name: Court Building Asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +450,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1540534943
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 3117064684058902681, guid: 07cd549203848d545ba55dbfe4e5909c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -510,7 +511,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.08104849, y: -0.19451809}
+  m_Offset: {x: -0.08104849, y: 0.017116785}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -520,8 +521,21 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 11.076938, y: 10.9032345}
+  m_Size: {x: 11.076938, y: 10.479965}
   m_EdgeRadius: 0
+--- !u!114 &83173064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83173060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323694467e14c024da3230d3db1d038c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingData: {fileID: 11400000, guid: 033e9edc26ec4ab41a3a50e4a3acd610, type: 2}
 --- !u!1 &110073233
 GameObject:
   m_ObjectHideFlags: 0
