@@ -33,6 +33,8 @@ public class InteractionDetector : MonoBehaviour
         {
             InteractableInRange = interactable;
             ExclamationIcon.SetActive(true);
+            QuestionIcon.SetActive(true);
+            EIcon.SetActive(true);
         }
     }
 
@@ -43,6 +45,8 @@ public class InteractionDetector : MonoBehaviour
         {
             InteractableInRange = null;
             ExclamationIcon.SetActive(false);
+            QuestionIcon.SetActive(false);
+            EIcon.SetActive(false);
         }
     }
 }
