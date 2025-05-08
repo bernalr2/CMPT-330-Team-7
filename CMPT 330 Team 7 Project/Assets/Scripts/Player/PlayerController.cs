@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private const string _lastVertical = "LastVertical";
 
     public AudioSource Footsteps;
+    public bool canMove = true;
 
     private void Awake()
     {
@@ -29,6 +30,36 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (canMove)
+        {
+            _rb.freezeRotation = true; // Prevent Character from rotating
+
+            _movement.Set(InputManager.Movement.x, InputManager.Movement.y);
+
+            _rb.linearVelocity = _movement * _moveSpeed;
+
+            _animator.SetFloat(_horizontal, _movement.x);
+            _animator.SetFloat(_vertical, _movement.y);
+
+            if (_movement != Vector2.zero)
+            {
+                _animator.SetFloat(_lastHorizontal, _movement.x);
+                _animator.SetFloat(_lastVertical, _movement.y);
+            }
+
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+            {
+                if (!Footsteps.isPlaying)
+                {
+                    Footsteps.Play();
+                }
+            }
+            else
+            {
+                Footsteps.Stop();
+            }
+        }
+        /*
         _rb.freezeRotation = true; // Prevent Character from rotating
 
         _movement.Set(InputManager.Movement.x, InputManager.Movement.y);
@@ -55,5 +86,11 @@ public class PlayerController : MonoBehaviour
         {
             Footsteps.Stop();
         }
+        */
+    }
+
+    public void changeMove()
+    {
+        canMove = !canMove;
     }
 }

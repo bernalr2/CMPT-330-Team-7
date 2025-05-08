@@ -2153,10 +2153,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4217529928405316658, guid: 285351744be096348988bc9c58a8f198, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 699971553}
+      addedObject: {fileID: 699971552}
     - targetCorrespondingSourceObject: {fileID: 4217529928405316658, guid: 285351744be096348988bc9c58a8f198, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 699971552}
+      addedObject: {fileID: 699971553}
   m_SourcePrefab: {fileID: 100100000, guid: 285351744be096348988bc9c58a8f198, type: 3}
 --- !u!1 &699971551 stripped
 GameObject:
@@ -2226,6 +2226,7 @@ MonoBehaviour:
   DialogueText: {fileID: 593547456}
   NameText: {fileID: 1364182379}
   PortraitImage: {fileID: 1315838217}
+  playerReference: {fileID: 733390233}
 --- !u!1 &717038762
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,6 +3216,10 @@ PrefabInstance:
       propertyPath: PortraitImage
       value: 
       objectReference: {fileID: 1315838217}
+    - target: {fileID: 3874717273110186220, guid: 21ca1f8f71a8333419ca3856bba49d23, type: 3}
+      propertyPath: playerReference
+      value: 
+      objectReference: {fileID: 733390233}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6175,6 +6180,7 @@ MonoBehaviour:
   DialogueText: {fileID: 593547456}
   NameText: {fileID: 1364182379}
   PortraitImage: {fileID: 1315838217}
+  playerReference: {fileID: 733390233}
 --- !u!61 &1655424475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6709,6 +6715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 70708227600147931, guid: 3f3b6e8a258790b44b84b11a05c1b891, type: 3}
+      propertyPath: canMove
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 70708227600147931, guid: 3f3b6e8a258790b44b84b11a05c1b891, type: 3}
       propertyPath: Footsteps
       value: 

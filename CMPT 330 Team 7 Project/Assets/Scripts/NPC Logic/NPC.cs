@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Runtime.CompilerServices;
 using TMPro;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,12 +13,14 @@ public class NPC : MonoBehaviour, IInteractable
     public TMP_Text DialogueText, NameText;
     public Image PortraitImage;
 
+    public GameObject playerReference;
+
     private int DialogueIndex;
     private bool IsTyping, IsDialogueActive;
 
     void Start()
     {
-      
+  
     }
 
     bool IInteractable.CanInteract()
@@ -27,6 +30,9 @@ public class NPC : MonoBehaviour, IInteractable
 
     void IInteractable.Interact()
     {
+        PlayerController something = playerReference.GetComponent<PlayerController>();
+        something.changeMove();
+
         Debug.Log("Hello");
         if (DialogueData == null /*|| (PauseController.IsGamePaused && !IsDialogueActive)*/)
         {
@@ -103,6 +109,8 @@ public class NPC : MonoBehaviour, IInteractable
         IsDialogueActive = false;
         DialogueText.SetText("");
         DialoguePanel.SetActive(false);
+        PlayerController something = playerReference.GetComponent<PlayerController>();
+        something.changeMove();
         //PauseController.SetPause(false);
     }
 
