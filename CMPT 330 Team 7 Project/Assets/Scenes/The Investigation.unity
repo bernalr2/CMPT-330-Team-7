@@ -1709,7 +1709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &538249970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4808,8 +4808,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1540534943
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!114 &1152764704
 MonoBehaviour:
@@ -4824,6 +4824,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuCanvas: {fileID: 311854037}
+  playerReference: {fileID: 733390233}
 --- !u!1 &1167736052
 GameObject:
   m_ObjectHideFlags: 0
@@ -5292,6 +5293,7 @@ MonoBehaviour:
   originalColor: {r: 0, g: 0, b: 0, a: 0}
   savedColor: {r: 0, g: 0, b: 0, a: 0}
   PaperFold: {fileID: 1419089895}
+  playerReference: {fileID: 733390233}
 --- !u!1 &1229318676
 GameObject:
   m_ObjectHideFlags: 0
