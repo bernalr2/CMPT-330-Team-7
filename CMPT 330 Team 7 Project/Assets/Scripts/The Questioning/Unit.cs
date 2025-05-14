@@ -9,6 +9,9 @@ public class Unit : MonoBehaviour
     public int maxStress;
     public int currentStress;
 
+    public int currentEnergy;
+    public int maxEnergy;
+
     public bool TakeDamage(int damage)
     {
         currentStress += damage;
