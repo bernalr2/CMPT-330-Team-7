@@ -89,7 +89,7 @@ public class PlayerController : MonoBehaviour
         */
     }
 
-    public void changeMove()
+    public void PausePlayer()
     {
         canMove = !canMove;
     }

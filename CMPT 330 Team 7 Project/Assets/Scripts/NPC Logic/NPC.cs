@@ -30,8 +30,8 @@ public class NPC : MonoBehaviour, IInteractable
 
     void IInteractable.Interact()
     {
-        PlayerController something = playerReference.GetComponent<PlayerController>();
-        something.changeMove();
+        PlayerController player = playerReference.GetComponent<PlayerController>();
+        player.PausePlayer();
 
         Debug.Log("Hello");
         if (DialogueData == null /*|| (PauseController.IsGamePaused && !IsDialogueActive)*/)
@@ -109,14 +109,14 @@ public class NPC : MonoBehaviour, IInteractable
         IsDialogueActive = false;
         DialogueText.SetText("");
         DialoguePanel.SetActive(false);
-        PlayerController something = playerReference.GetComponent<PlayerController>();
-        something.changeMove();
+        PlayerController player = playerReference.GetComponent<PlayerController>();
+        player.PausePlayer();
         //PauseController.SetPause(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Interactable Object Area Detected");
+        Debug.Log("Interactable NPC Detected");
 
         if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
         {

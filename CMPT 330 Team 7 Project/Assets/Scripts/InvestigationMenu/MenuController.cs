@@ -17,8 +17,8 @@ public class MenuController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Tab))
         {
             menuCanvas.SetActive(!menuCanvas.activeSelf);
-            PlayerController playerController = playerReference.GetComponent<PlayerController>();
-            playerController.changeMove();
+            PlayerController player = playerReference.GetComponent<PlayerController>();
+            player.PausePlayer();
         }
     }
 }
