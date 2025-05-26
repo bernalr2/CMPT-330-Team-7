@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 8019403186317128302}
   - component: {fileID: 8858321363421813599}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player (The Defense Lawyer)
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ SpriteRenderer:
   m_SortingLayerID: -1540534943
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7836055044966272575, guid: ab30eee049f37bc4e93566ce7edbfd4a, type: 3}
+  m_Sprite: {fileID: -7193305305232960616, guid: 62ebaebb3723310418b14c3d20733310, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -279,7 +279,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 22.125, y: 27.375}
+    oldSize: {x: 20.1875, y: 29.6875}
     newSize: {x: 22.125, y: 27.375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
