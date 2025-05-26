@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Courtroom.unity
     guid: 4eb4b79e6ec65044abe22b31b69ec234
+  - enabled: 1
+    path: Assets/Scenes/Placeholder.unity
+    guid: 338f6a56a07470442b43a24bbcec33a5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

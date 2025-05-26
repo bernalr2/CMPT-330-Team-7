@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: House1 Data
   m_EditorClassIdentifier: 
   BuildingName: House1
-  BuildingScene: House1
+  BuildingScene: Placeholder

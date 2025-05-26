@@ -214,6 +214,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1655424474}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: EndDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 699971553}
+        m_TargetAssemblyTypeName: NPC, Assembly-CSharp
+        m_MethodName: EndDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &47494970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,6 +901,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 83173064}
+        m_TargetAssemblyTypeName: Building, Assembly-CSharp
+        m_MethodName: ClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1845128708}
         m_TargetAssemblyTypeName: Building, Assembly-CSharp
         m_MethodName: ClosePanel
         m_Mode: 1
@@ -2700,6 +2736,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7987029072581281171, guid: 285351744be096348988bc9c58a8f198, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987029072581281171, guid: 285351744be096348988bc9c58a8f198, type: 3}
       propertyPath: m_SortingLayerID
       value: -1540534943
       objectReference: {fileID: 0}
@@ -3770,7 +3810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1458335784845714086, guid: 21ca1f8f71a8333419ca3856bba49d23, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1458335784845714086, guid: 21ca1f8f71a8333419ca3856bba49d23, type: 3}
       propertyPath: m_SortingLayerID
@@ -4542,6 +4582,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 83173064}
+        m_TargetAssemblyTypeName: Building, Assembly-CSharp
+        m_MethodName: EnterBuilding
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1845128708}
         m_TargetAssemblyTypeName: Building, Assembly-CSharp
         m_MethodName: EnterBuilding
         m_Mode: 1
@@ -7819,6 +7871,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9218138746327661183, guid: 81eabdddc85106e4487e8c59273e2418, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218138746327661183, guid: 81eabdddc85106e4487e8c59273e2418, type: 3}
       propertyPath: m_SortingLayerID
       value: -1540534943
       objectReference: {fileID: 0}
@@ -8537,7 +8593,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1540534943
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -6995215487836105908, guid: 64a8aa7aa68cf5e4198177f01d73c838, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8734,10 +8790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 323694467e14c024da3230d3db1d038c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingData: {fileID: 0}
-  decisionPanel: {fileID: 0}
-  decisionText: {fileID: 0}
-  playerReference: {fileID: 0}
+  buildingData: {fileID: 11400000, guid: 1c0b32b0c57c6a34fb81098c0638a99b, type: 2}
+  decisionPanel: {fileID: 538249969}
+  decisionText: {fileID: 1466914399}
+  playerReference: {fileID: 733390233}
 --- !u!1001 &1881653869
 PrefabInstance:
   m_ObjectHideFlags: 0
