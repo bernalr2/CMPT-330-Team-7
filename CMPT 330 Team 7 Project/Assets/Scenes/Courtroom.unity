@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 49728174}
   - component: {fileID: 49728173}
   m_Layer: 0
-  m_Name: Court_Room_Interior (1)_0
+  m_Name: Court Room Interior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,8 +200,8 @@ Transform:
   m_GameObject: {fileID: 49728172}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 1.8, z: 0}
-  m_LocalScale: {x: 21.266691, y: 16.382277, z: 1}
+  m_LocalPosition: {x: -5.1, y: 92.6, z: 0}
+  m_LocalScale: {x: 30.87947, y: 27.45161, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -742,7 +742,7 @@ PrefabInstance:
     - target: {fileID: 2564238074670144101, guid: 74434f4cadc2dee41ab0213b9f0e71c4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 88df02cc3e0d91b47b38aa01e2a553d3, type: 2}
+      objectReference: {fileID: 9100000, guid: c895d3e85041c994fa4b228e566a4e94, type: 2}
     - target: {fileID: 3490240431886494661, guid: 74434f4cadc2dee41ab0213b9f0e71c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6921883
@@ -787,7 +787,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (The Defense Lawyer)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8858321363421813599, guid: 74434f4cadc2dee41ab0213b9f0e71c4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
