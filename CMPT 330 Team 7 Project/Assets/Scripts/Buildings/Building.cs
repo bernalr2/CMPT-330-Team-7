@@ -50,7 +50,17 @@ public class Building : MonoBehaviour, IInteractable
     public void EnterBuilding()
     {
         Debug.Log("Entering building: " + buildingData.BuildingName);
-        SceneManager.LoadScene(buildingData.BuildingScene, LoadSceneMode.Single);
+
+        // Load courtroom
+        if (buildingData.BuildingScene == "Courtroom")
+        {
+            SceneManager.LoadScene("Courtroom", LoadSceneMode.Single);
+        }
+        // If Scene is not officially added to any of the buildings, load Placeholder
+        else
+        {
+            SceneManager.LoadScene("Placeholder", LoadSceneMode.Single);
+        }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
