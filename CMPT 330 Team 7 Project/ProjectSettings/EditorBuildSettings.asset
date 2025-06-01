@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/The Questioning.unity
     guid: 8602485cb40b85a41b1ec3f1fca5819d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Courtroom.unity
     guid: 4eb4b79e6ec65044abe22b31b69ec234
+  - enabled: 1
+    path: Assets/Scenes/The Courtroom.unity
+    guid: 636c4e6a9d8def640aab707618131a19
   - enabled: 1
     path: Assets/Scenes/Placeholder.unity
     guid: 338f6a56a07470442b43a24bbcec33a5

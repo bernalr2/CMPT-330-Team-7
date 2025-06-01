@@ -57,11 +57,13 @@ public class Building : MonoBehaviour, IInteractable
     public void EnterBuilding()
     {
         Debug.Log("Entering building: " + buildingData.BuildingName);
+        PlayerController player = playerReference.GetComponent<PlayerController>();
+        player.inBuilding = true;
 
         // Load courtroom
         if (buildingData.BuildingScene == "Courtroom")
         {
-            SceneManager.LoadScene("Courtroom", LoadSceneMode.Single);
+            SceneManager.LoadScene("The Courtroom", LoadSceneMode.Single);
         }
         // If Scene is not officially added to any of the buildings, load Placeholder
         else
@@ -72,6 +74,8 @@ public class Building : MonoBehaviour, IInteractable
 
     public void ExitBuilding()
     {
+        PlayerController player = playerReference.GetComponent<PlayerController>();
+        player.inBuilding = false;
         Debug.Log("Exiting building: " + buildingData.BuildingName);
         SceneManager.LoadScene("The Investigation", LoadSceneMode.Single);
     }
