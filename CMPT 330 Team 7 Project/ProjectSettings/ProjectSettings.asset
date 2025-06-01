@@ -702,8 +702,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: CMPT 330 Team 7 Project
-  metroPackageVersion: 
+  metroPackageName: CMPT330Team7Project
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -711,7 +711,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: CMPT 330 Team 7 Project
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: CMPT 330 Team 7 Project
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0

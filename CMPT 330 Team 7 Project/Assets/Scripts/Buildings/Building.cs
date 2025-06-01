@@ -36,7 +36,14 @@ public class Building : MonoBehaviour, IInteractable
         player.PausePlayer();
         isPanelActive = true;
         decisionPanel.SetActive(true);
-        decisionText.SetText("Would you like to enter the " + buildingData.BuildingName + "?");
+        if (!player.inBuilding)
+        {
+            decisionText.SetText("Would you like to enter the " + buildingData.BuildingName + "?");
+        }
+        else
+        {
+            decisionText.SetText("Would you like to exit the " + buildingData.BuildingName + "?");
+        }
     }
 
     public void ClosePanel()
@@ -61,6 +68,12 @@ public class Building : MonoBehaviour, IInteractable
         {
             SceneManager.LoadScene("Placeholder", LoadSceneMode.Single);
         }
+    }
+
+    public void ExitBuilding()
+    {
+        Debug.Log("Exiting building: " + buildingData.BuildingName);
+        SceneManager.LoadScene("The Investigation", LoadSceneMode.Single);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

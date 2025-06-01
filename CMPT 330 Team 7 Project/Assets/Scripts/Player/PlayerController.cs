@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     public AudioSource Footsteps;
     public bool canMove = true;
+    public bool inBuilding = false;
 
     private void Awake()
     {
