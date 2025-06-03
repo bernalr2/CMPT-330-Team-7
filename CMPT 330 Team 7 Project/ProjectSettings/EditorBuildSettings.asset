@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/The Courtroom.unity
     guid: 636c4e6a9d8def640aab707618131a19
   - enabled: 1
+    path: Assets/Scenes/Cecil.unity
+    guid: f10d2b3f01559054c9711831340aaac4
+  - enabled: 1
     path: Assets/Scenes/Placeholder.unity
     guid: 338f6a56a07470442b43a24bbcec33a5
   m_configObjects:

@@ -36,6 +36,8 @@ public class Building : MonoBehaviour, IInteractable
         player.PausePlayer();
         isPanelActive = true;
         decisionPanel.SetActive(true);
+
+        Debug.Log("Trying to enter" + buildingData.BuildingName);
         if (!player.inBuilding)
         {
             decisionText.SetText("Would you like to enter the " + buildingData.BuildingName + "?");
@@ -64,6 +66,10 @@ public class Building : MonoBehaviour, IInteractable
         if (buildingData.BuildingScene == "Courtroom")
         {
             SceneManager.LoadScene("The Courtroom", LoadSceneMode.Single);
+        }
+        else if (buildingData.BuildingScene == "Cecil")
+        {
+            SceneManager.LoadScene("Cecil", LoadSceneMode.Single);
         }
         // If Scene is not officially added to any of the buildings, load Placeholder
         else

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b029cc1709b89648a45baa240c46d1c, type: 3}
-  m_Name: House1 Data
+  m_Name: Phoebe's House Data
   m_EditorClassIdentifier: 
-  BuildingName: House1
-  BuildingScene: Placeholder
+  BuildingName: Phoebe's House
+  BuildingScene: Phoebe
